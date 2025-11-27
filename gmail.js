@@ -1,5 +1,6 @@
 const CLIENT_ID = "YOUR_GOOGLE_CLIENT_ID";
-const REDIRECT_URI = "http://localhost:5173/callback.html";  // change based on your port
+const REDIRECT_URI = "https://hariharansuthan-a.github.io/se/callback.html";
+// change based on your port
 
 // LOGIN
 function login() {
