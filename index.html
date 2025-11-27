@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gmail OAuth Test</title>
+</head>
+<body>
+
+<h2>Send Email with Gmail</h2>
+
+<button onclick="login()">Login with Google</button>
+<button onclick="logout()">Logout</button>
+
+<br /><br />
+
+<label>To:</label>
+<input id="to" />
+
+<br /><br />
+
+<label>Subject:</label>
+<input id="subject" />
+
+<br /><br />
+
+<label>Message:</label>
+<textarea id="message"></textarea>
+
+<br /><br />
+
+<button onclick="sendEmail()">Send Email</button>
+
+<script src="gmail.js"></script>
+</body>
+</html>
